@@ -298,3 +298,119 @@ body{
     line-height: 23px;
     text-align: center;
 }
+
+@media only screen and (max-width: 688px) {
+
+    .header{
+        background: none;
+    }
+    
+    .nav{
+        flex-direction: column;
+    }
+    .nav-header{
+        width: 300px;
+       margin-left: 170px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .introduction{
+        margin-left: 0;
+    }
+    .introduction-title{
+        font-size: 20px;
+        text-align: center;
+        margin-right: 200px;
+    }
+    .introduction-subtitle{
+        width: 300px;
+        text-align: center;
+        margin-left: 145px ;
+    }
+    .orange-button-1{
+        margin-left: 220px;
+    }
+    .banner img{
+        width: 310px;
+        height: 250px;
+        margin-left: 120px;
+    }
+    .main-container-1{
+        flex-direction: column;
+    }
+    .image-container{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: space-between;
+    }
+    .feature-title{
+        margin-top: 30px;
+    }
+    .feature-subtitle{
+        width: 200px;
+    }
+    .main-cont{
+        flex-direction: column;
+    }
+    .feature-header{
+       margin-left: 30px;
+       text-align: center;
+       margin-left: 230px;
+    }
+    .feature-subheader{
+        width: 300px;
+        text-align: center;
+        margin-left: 250px;
+    }
+    .feature-module{
+        width: 260px;
+        height: 150px;
+        margin-right: 0;
+        margin-left: 0;
+        background-color: aliceblue;
+        text-align: center;
+        margin-left: 420px;
+    }
+    .main-cont-image img{
+        width: 300px;
+        height: 400px;
+        margin-right: 0;
+        margin-left: 210px;
+    }
+    .orange-button-22{
+        margin-right: 0;
+        margin-left: 260px;
+    }
+    .feature-subheader-2{
+        width: 300px;
+    }
+    .facts-container{
+        flex-direction: column;
+    }
+    .facts{
+       width: 100px;
+       height: 70px;
+       padding: 50px;
+       margin-bottom: 5px;
+    }
+    .sponsor-header{
+        width: 200px;
+        margin-left: 190px;
+        text-align: center;
+    }
+    .sponsor-details{
+        margin-left: 220px;
+        width: 150px;
+    }
+    .sponsor-images{
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 250px;
+        margin-right: 0;
+    }
+    .footer{
+        width: 200px;
+        margin-left: 180px;
+    }
+
+}
