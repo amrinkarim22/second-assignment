@@ -203,3 +203,55 @@ body{
 .orange-button-2 span{
     font-size: 12px;
 }
+.feature-header-2{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 150px;
+    margin-bottom: 15px;
+}
+.feature-subheader-2{
+    width: 430px;
+    color: #727272;
+    font-size: 12px;
+    margin-left: 150px;
+}
+.facts-container{
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}
+.facts{
+    width: 220px;
+    height: 100px;
+    border: 2px solid rgb(255, 127, 127);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+.facts-about{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.number{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.facts img{
+    margin-bottom: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.facts:hover{
+    border-color: royalblue;
+    transform: scale(1.2,1.2);
+}
