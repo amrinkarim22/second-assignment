@@ -255,3 +255,32 @@ body{
     border-color: royalblue;
     transform: scale(1.2,1.2);
 }
+.main-container-4{
+    margin-bottom: 120px;
+}
+.sponsor-header{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sponsor-details{
+    width: 430px;
+    color: #727272;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 450px;
+  
+}
+.sponsor-images{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.spon img {
+    width: 70px;
+    height: 30px;
+    filter: grayscale(100%);
+}
